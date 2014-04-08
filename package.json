@@ -1,18 +1,12 @@
 {
-  "name": "translate-component",
+  "name": "component-translate",
   "description": "Hardware accelerated translations with fallback support",
   "version": "0.1.0",
   "keywords": [],
-  "dependencies": {
-    "has-translate3d": "*",
-    "transform-property": "*"
-  },
-  "development": {},
-  "license": "MIT",
   "main": "index.js",
-  "component": {
-    "scripts": {
-      "translate/index.js": "index.js"
-    }
-  }
+  "dependencies": {
+    "component-has-translate3d": "git://github.com/npmcomponent/component-has-translate3d.git",
+    "component-transform-property": "git://github.com/npmcomponent/component-transform-property.git"
+  },
+  "license": "MIT"
 }
